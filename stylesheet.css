@@ -1,0 +1,27 @@
+#carrousel {
+  margin: auto;
+}
+
+body {
+  background-color:#0C0C1D;
+}
+
+#table {
+  width:80%;  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#visuaCliente {
+  margin-left: 3%;  
+}
+#corNav {
+  background-color: #FFBE63;
+}
+
+#texto {
+  text-align: center;  
+}
+#botãoAlertar {
+  margin-left: 2%;
+}
