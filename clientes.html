@@ -152,26 +152,31 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
-              <table id="table" class="table table-dark">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Em construção</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                  </tr>
-                </tbody>
-              </table>
+            <!-- inicio botões editar clientes -->
+            <div iv class="modal-body">
+              <button
+                type="button"
+                class="btn btn-success"
+                data-bs-dismiss="modal"
+              >
+                Adicionar
+              </button>
+              <button
+                type="button"
+                class="btn btn-danger"
+                data-bs-dismiss="modal"
+              >
+                Remover
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-dismiss="modal"
+              >
+                Editar
+              </button>
             </div>
+            <!-- fim botões editar clientes -->
             <div class="modal-footer">
               <button
                 type="button"
@@ -185,6 +190,7 @@
         </div>
       </div>
       <!-- fim modal editar cliente  -->
+
       <!-- atualizar cliente -->
       <button
         type="button"
@@ -192,9 +198,18 @@
         onclick="alertar()"
         id="visuaCliente"
       >
-        <i class="fas fa-sync"></i>
         Atualizar Clientes
       </button>
+    </div>
+    <br /><br /><br />
+    <div id="texto">
+      <h5 style="color: white">
+        Prezados como podem ver, esse projeto ainda está em costrução. Ainda tem
+        muita coisa para ser implementada principalmente em relação ao backend,
+        talvez pretenda usar php, ou node.js.<br/> Usaria o banco de dados MYSQL que
+        é o que tenho mais conhecimento.<br />A parte visual também posso
+        melhorar mais, com icones e paleta de cores melhores.
+      </h5>
     </div>
   </body>
   <script
@@ -208,5 +223,5 @@
       alert("cliente atualizado");
       alert("OBS. esse campo está em desenvolvimento ainda");
     }
-  </script> 
+  </script>
 </html>
